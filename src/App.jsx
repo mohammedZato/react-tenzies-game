@@ -4,7 +4,7 @@ import Die from './component/Die'
 function App() {
 
   return (
-    <div class="m-10 py-4 border border-indigo-400 rounded lg:max-w-xl lg:mx-auto shadow-xl">
+    <div class="m-8 px-4 py-4 border border-indigo-400 rounded lg:max-w-xl lg:mx-auto shadow-xl">
       <Die />
     </div>
   )

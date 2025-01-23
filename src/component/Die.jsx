@@ -73,7 +73,7 @@ export default function Die() {
                     Click each die to freeze it at its current value between rolls.</p>
             }
             {tenzies && <Confetti />}
-            <div class="grid grid-cols-5 gap-4 mx-4 py-6">
+            <div class="grid grid-cols-5 gap-4 py-6">
                 {diceElements}
             </div>
             <button onClick={rollDice} class="mt-8 mb-2 rounded-lg focus:outline-none cursor-pointer bg-sky-800 px-10 py-3 hover:bg-sky-700 hover:scale-105 transition-transform duration-700 text-white text-lg font-medium">
