@@ -65,11 +65,11 @@ export default function Die() {
     
     return (
         <main className="main-div flex flex-col justify-center items-center">
-            <h1 class="font-bold text-4xl">{tenzies ? "YOU WON!!" : "Tenzies"}</h1>
+            <h1 class="font-bold text-black text-4xl">{tenzies ? "YOU WON!!" : "Tenzies"}</h1>
             {
                 tenzies ? 
-                    <div class="font-medium text-lg mt-2">No of Die Rolls: {count}</div> : 
-                    <p class="text-center p-2 text-lg font-medium">Roll until all dice are the same. 
+                    <div class="font-medium text-black text-lg mt-2">No of Die Rolls: {count}</div> : 
+                    <p class="text-center p-2 text-lg text-black font-medium">Roll until all dice are the same. 
                     Click each die to freeze it at its current value between rolls.</p>
             }
             {tenzies && <Confetti />}
